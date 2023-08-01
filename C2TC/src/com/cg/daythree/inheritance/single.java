@@ -12,7 +12,7 @@ class Child extends Single {
 		System.out.println("children class");
 	}
 }
-//multiple inheritance
+//multilevel inheritance
 class ClassA
 {
 	void sum(int a,int b)
@@ -31,7 +31,7 @@ class ClassC extends ClassB
 {
 	void mul(int a,int b)
 	{
-		System.out.println("multiplication" + (a-b));
+		System.out.println("multiplication" + (a*b));
 	}
 }
 //hierarchical inheritance

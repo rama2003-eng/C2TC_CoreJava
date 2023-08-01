@@ -20,6 +20,6 @@ public class MethodClass {
 	}
 	void div(int a,int b)
 	{
-		System.out.println("sub is "+ a/b);	}
+		System.out.println("div is "+ a/b);	}
 
 }
